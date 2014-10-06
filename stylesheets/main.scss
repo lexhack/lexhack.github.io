@@ -147,10 +147,12 @@ header {
 	text-align: center;
 }
 
-button {
+#main-button {
 	// color: #444;
 	// color: $yellow;
+	display: inline-block;
 	color: #F9F9F9;
+	text-decoration: none;
 	border: none;
 	background-color: $blue;
 	font-family: Montserrat;
@@ -163,5 +165,8 @@ button {
 	box-shadow: inset 0 -1px 7px #444;
 	&:hover {
 		cursor: pointer;
+	}
+	&:active {
+		box-shadow: inset 0 1px 7px #444;
 	}
 }

@@ -88,8 +88,10 @@ header {
     margin: 0;
     font-size: 2.4em; }
 
-button {
+#main-button {
+  display: inline-block;
   color: #F9F9F9;
+  text-decoration: none;
   border: none;
   background-color: #479aff;
   font-family: Montserrat;
@@ -99,5 +101,7 @@ button {
   padding: 1.2em;
   letter-spacing: -0.01em;
   box-shadow: inset 0 -1px 7px #444; }
-  button:hover {
+  #main-button:hover {
     cursor: pointer; }
+  #main-button:active {
+    box-shadow: inset 0 1px 7px #444; }
