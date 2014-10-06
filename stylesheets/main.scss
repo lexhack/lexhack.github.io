@@ -60,9 +60,11 @@ a {
 }
 
 section {
+	font-size: 22px;
 	height: 500px;
 	background-color: #EAEAEA;
 	width: 100%;
+	color: #444;
 }
 
 #description {
@@ -116,7 +118,14 @@ img {
 }
 
 header {
+	color: #222;
 	background-color: $light-blue;
+	padding: 1em 0;
+	h1 {
+		margin: 0;
+		font-size: 2.4em;
+	}
+	text-align: center;
 }
 
 button {
