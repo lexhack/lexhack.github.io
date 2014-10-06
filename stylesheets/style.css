@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EAEAEA;
+  font-family: 'Source Sans Pro'; }
+
+.yellow {
+  color: #ffc747; }
+
+.logo {
+  color: #F7F7F7;
+  font-family: Montserrat;
+  font-size: 3.2em;
+  font-weight: bold;
+  line-height: 0.6em; }
+
+a {
+  color: #b5d8ff; }
+
+#intro {
+  font-size: 26px;
+  text-align: center;
+  padding: 260px 50px;
+  margin: 0 auto;
+  background-color: rgba(32, 32, 32, 0.8);
+  font-family: 'Source Sans Pro'; }
+
+section {
+  height: 500px;
+  background-color: #EAEAEA;
+  width: 100%; }
+
+#description {
+  color: #E0E0E0; }
+  #description p {
+    margin: 0.1em; }
+
+nav {
+  height: 80px;
+  z-index: 1;
+  background-color: #b5d8ff;
+  position: relative;
+  box-shadow: 0 2px 14px rgba(128, 128, 128, 0.4); }
+  nav a {
+    color: white; }
+
+.bg {
+  position: relative;
+  min-height: 800px;
+  min-width: 100%;
+  -webkit-filter: blur(2px);
+  z-index: -1; }
+
+.icon {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  font-size: 1.6em; }
+
+.img-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  z-index: -1; }
+
+header {
+  background-color: #b5d8ff; }
+
+button {
+  color: #F9F9F9;
+  border: none;
+  background-color: #479aff;
+  font-family: Montserrat;
+  font-size: 1.2em;
+  border-radius: 5px;
+  margin-top: 1.6em;
+  padding: 1.2em;
+  letter-spacing: -0.01em;
+  box-shadow: inset 0 -3px 7px #444; }
