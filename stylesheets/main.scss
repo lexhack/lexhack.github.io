@@ -81,7 +81,6 @@ section {
 	width: 50%;
 	margin: 0 auto;
 	line-height: 1.4em;
-
 }
 
 #description {
@@ -105,8 +104,6 @@ nav {
 		color: white;
 	}
 }
-
-
 
 .bg {
 	position: relative;
@@ -136,6 +133,7 @@ header {
 	// color: #222;
 	// color: $yellow;
 	background-color: $yellow;
+	font-family: Montserrat;
 	padding: 1.6em 0;
 	h1 {
 		margin: 0;
@@ -144,29 +142,68 @@ header {
 	text-align: center;
 }
 
-#main-button {
-	// color: #444;
-	// color: $yellow;
-	display: inline-block;
-	// color: #F9F9F9;
+.button {
+	border-radius: 5px;
 	text-decoration: none;
 	border: none;
-	background-color: $blue;
-	font-family: Montserrat;
-	font-size: 1.2em;
-	border-radius: 5px;
-	margin-top: 1.6em;
-	padding: 1.2em;
-	// font-weight: bold;
-	letter-spacing: -0.01em;
-	box-shadow: inset 0 -1px 7px #444;
-	transition: color 300ms;
+	font-family: 'Source Sans Pro';
 	&:hover {
 		cursor: pointer;
-		color: #F9F9F9;
-	}
-	&:active {
-		box-shadow: inset 0 1px 7px #444;
 	}
 }
 
+#main-button {
+	// color: #444;
+	// color: $yellow;
+	padding: 1.2em;
+	display: inline-block;
+	// color: #F9F9F9;
+	background-color: $blue;
+	font-family: Montserrat;
+	font-size: 1.2em;
+	margin-top: 1.6em;
+	// font-weight: bold;
+	letter-spacing: -0.01em;
+	transition: color 300ms;
+	box-shadow: inset 0 -1px 7px #444;
+	&:active {
+		box-shadow: inset 0 1px 7px #444;
+	}
+	&:hover {
+		color: #F9F9F9;
+	}
+}
+
+#mc_embed_signup {
+	font-size: 24px;	
+}
+
+#mc_embed_signup_scroll {
+	font-family: 'Source Sans Pro';
+	label {
+		font-size: 1em;
+		line-height: 1.4em;
+		display: block;
+		margin: 1em 0;
+	}
+	width: 100%;
+}
+
+#mce-EMAIL {
+	font-family: 'Source Sans Pro';
+	font-size: 1em;
+	padding: 1em;
+	// margin: 0;
+	box-sizing: border-box;
+	width: 100%;
+	margin-bottom: 0.6em;
+}
+
+#mc-embedded-subscribe {
+	background-color: $blue;
+	color: $light-blue;
+	padding: 1em;
+	font-weight: bold;
+	font-size: 1em;
+	width: 100%;
+}

@@ -82,27 +82,60 @@ nav {
 
 header {
   background-color: #ffc747;
+  font-family: Montserrat;
   padding: 1.6em 0;
   text-align: center; }
   header h1 {
     margin: 0;
     font-size: 2.4em; }
 
-#main-button {
-  display: inline-block;
+.button {
+  border-radius: 5px;
   text-decoration: none;
   border: none;
+  font-family: 'Source Sans Pro'; }
+  .button:hover {
+    cursor: pointer; }
+
+#main-button {
+  padding: 1.2em;
+  display: inline-block;
   background-color: #479aff;
   font-family: Montserrat;
   font-size: 1.2em;
-  border-radius: 5px;
   margin-top: 1.6em;
-  padding: 1.2em;
   letter-spacing: -0.01em;
-  box-shadow: inset 0 -1px 7px #444;
-  transition: color 300ms; }
-  #main-button:hover {
-    cursor: pointer;
-    color: #F9F9F9; }
+  transition: color 300ms;
+  box-shadow: inset 0 -1px 7px #444; }
   #main-button:active {
     box-shadow: inset 0 1px 7px #444; }
+  #main-button:hover {
+    color: #F9F9F9; }
+
+#mc_embed_signup {
+  font-size: 24px; }
+
+#mc_embed_signup_scroll {
+  font-family: 'Source Sans Pro';
+  width: 100%; }
+  #mc_embed_signup_scroll label {
+    font-size: 1em;
+    line-height: 1.4em;
+    display: block;
+    margin: 1em 0; }
+
+#mce-EMAIL {
+  font-family: 'Source Sans Pro';
+  font-size: 1em;
+  padding: 1em;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 0.6em; }
+
+#mc-embedded-subscribe {
+  background-color: #479aff;
+  color: #b5d8ff;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 1em;
+  width: 100%; }
