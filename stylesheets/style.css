@@ -20,14 +20,14 @@ body {
 a {
   color: #479aff; }
 
-#intro {
+.intro {
   font-size: 26px;
   text-align: center;
   padding: 260px 50px;
   margin: 0 auto;
   background-color: rgba(64, 64, 64, 0.6);
   font-family: 'Source Sans Pro'; }
-  #intro a {
+  .intro a {
     color: #b5d8ff; }
 
 section {
@@ -49,15 +49,6 @@ section {
   color: #E0E0E0; }
   #description p {
     margin: 0.1em; }
-
-nav {
-  height: 80px;
-  z-index: 1;
-  background-color: #b5d8ff;
-  position: relative;
-  box-shadow: 0 2px 14px rgba(128, 128, 128, 0.4); }
-  nav a {
-    color: white; }
 
 .bg {
   position: relative;
@@ -93,23 +84,23 @@ header {
   border-radius: 5px;
   text-decoration: none;
   border: none;
-  font-family: 'Source Sans Pro'; }
+  font-family: 'Source Sans Pro';
+  color: #EAEAEA; }
   .button:hover {
-    cursor: pointer; }
+    cursor: pointer;
+    color: #F9F9F9; }
   .button:active {
     box-shadow: inset 0 1px 7px #444; }
 
 #main-button {
   padding: 1.2em;
   display: inline-block;
-  background-color: #479aff;
+  background-color: rgba(71, 154, 255, 0.8);
   font-family: Montserrat;
   font-size: 1.2em;
   margin-top: 1.6em;
   letter-spacing: -0.01em;
   transition: color 300ms; }
-  #main-button:hover {
-    color: #F9F9F9; }
 
 #mc_embed_signup {
   font-size: 24px; }
@@ -133,7 +124,6 @@ header {
 
 #mc-embedded-subscribe {
   background-color: #479aff;
-  color: #b5d8ff;
   padding: 1em;
   font-weight: bold;
   font-size: 1em;
