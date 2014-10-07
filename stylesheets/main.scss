@@ -150,6 +150,9 @@ header {
 	&:hover {
 		cursor: pointer;
 	}
+	&:active {
+		box-shadow: inset 0 1px 7px #444;
+	}
 }
 
 #main-button {
@@ -165,10 +168,7 @@ header {
 	// font-weight: bold;
 	letter-spacing: -0.01em;
 	transition: color 300ms;
-	box-shadow: inset 0 -1px 7px #444;
-	&:active {
-		box-shadow: inset 0 1px 7px #444;
-	}
+	// box-shadow: inset 0 -1px 7px #444;
 	&:hover {
 		color: #F9F9F9;
 	}
