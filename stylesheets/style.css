@@ -21,9 +21,9 @@ a {
   color: #479aff; }
 
 .intro {
-  font-size: 26px;
+  font-size: 20px;
   text-align: center;
-  padding: 260px 50px;
+  padding: 220px 50px;
   margin: 0 auto;
   background-color: rgba(64, 64, 64, 0.6);
   font-family: 'Source Sans Pro'; }
@@ -31,7 +31,7 @@ a {
     color: #b5d8ff; }
 
 section {
-  font-size: 24px;
+  font-size: 20px;
   background-color: #EAEAEA;
   color: #444;
   padding-bottom: 2em; }
@@ -97,13 +97,10 @@ header {
   display: inline-block;
   background-color: rgba(71, 154, 255, 0.8);
   font-family: Montserrat;
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin-top: 1.6em;
   letter-spacing: -0.01em;
   transition: color 300ms; }
-
-#mc_embed_signup {
-  font-size: 24px; }
 
 #mc_embed_signup_scroll {
   font-family: 'Source Sans Pro';

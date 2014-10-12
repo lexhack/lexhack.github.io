@@ -45,9 +45,9 @@ a {
 
 
 .intro {
-	font-size: 26px;
+	font-size: 20px;
 	text-align: center;
-	padding: 260px 50px;
+	padding: 220px 50px;
 	// padding-top: 150px;
 	// background-color: white;
 	margin: 0 auto;
@@ -64,7 +64,7 @@ a {
 }
 
 section {
-	font-size: 24px;
+	font-size: 20px;
 	background-color: #EAEAEA;
 	color: #444;
 	padding-bottom: 2em;
@@ -166,22 +166,15 @@ header {
 	// color: #F9F9F9;
 	background-color: rgba($blue, 0.8);
 	font-family: Montserrat;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	margin-top: 1.6em;
 	// font-weight: bold;
 	letter-spacing: -0.01em;
 	transition: color 300ms;
 	// color: #F9F9F9;
 
-	// box-shadow: inset 0 -1px 7px #444;
-	// &:hover {
-		// background-color: rgba($blue, 0.8);
-	// }
 }
 
-#mc_embed_signup {
-	font-size: 24px;	
-}
 
 #mc_embed_signup_scroll {
 	font-family: 'Source Sans Pro';
