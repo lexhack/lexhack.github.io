@@ -5,7 +5,7 @@
 $yellow: #FFC747;
 $blue: #479AFF;
 $light-blue: #B5D8FF;
-$media-small: 480px;
+$media-small: 568px; // iphone 5 landscape
 
 body {
 	margin: 0;
@@ -138,7 +138,7 @@ header {
 	border: none;
 	font-family: 'Source Sans Pro';
 	color: #EAEAEA;
-	-webkit-appearance: none;
+	-webkit-appearance: none; // removes webkit btn defaults
 	&:hover { 
 		cursor: pointer;
 		color: #F9F9F9;
