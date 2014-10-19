@@ -3,6 +3,9 @@
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 
 $yellow: #FFC747;
+$blue: #479AFF;
+$light-blue: #B5D8FF;
+$media-small: 480px;
 
 body {
 	margin: 0;
@@ -10,9 +13,6 @@ body {
 	background-color: #EAEAEA;
 	font-family: 'Source Sans Pro';
 }
-
-$blue: #479AFF;
-$light-blue: #B5D8FF;
 
 .yellow {
 	color: $yellow;
@@ -24,12 +24,14 @@ $light-blue: #B5D8FF;
 	font-size: 3.2em;
 	font-weight: bold;
 	line-height: 0.6em;
+	@media (max-width: $media-small) {
+		font-size: 2.1em;
+	}
 }
 
 a {
 	color: $blue;
 }
-
 
 .intro {
 	font-size: 20px;
@@ -38,8 +40,22 @@ a {
 	margin: 0 auto;
 	background-color: rgba(64,64,64,0.6);
 	font-family: 'Source Sans Pro';
-	a{
+	a {
 		color: $light-blue;
+	}
+	@media (max-width: $media-small) {
+		font-size: 18px;
+		padding: 40px 15px;
+	}
+}
+
+.tagline {
+	font-size: 0.24em;
+	letter-spacing: 0.12em;
+	margin: 0;
+	color:#E0E0E0;
+	@media (max-width: $media-small) {
+		font-size: 0.32em;
 	}
 }
 
@@ -53,18 +69,27 @@ section {
 		margin: 0 auto;
 		width: 100%;
 	}
+	@media (max-width: $media-small) {
+		font-size: 18px;
+	}
 }
 
 .content {
 	width: 60%;
 	margin: 0 auto;
 	line-height: 1.4em;
+	@media (max-width: $media-small) {
+		width: 90%;
+	}
 }
 
 #description {
 	color: #E0E0E0;
 	p {
 		margin: 0.1em;
+		@media (max-width: $media-small) {
+			margin: 0.6em;
+		}
 	}
 }
 
@@ -111,10 +136,13 @@ header {
 	color: #EAEAEA;
 	&:hover { 
 		cursor: pointer;
-		color: #F9F9F9; // default for mobile
+		color: #F9F9F9;
 	}
 	&:active {
 		box-shadow: inset 0 1px 7px #444;
+	}
+	@media (max-width: $media-small) {
+		color: #F9F9F9;
 	}
 }
 
@@ -127,6 +155,11 @@ header {
 	margin-top: 1.6em;
 	letter-spacing: -0.01em;
 	transition: color 300ms;
+	@media (max-width: $media-small) {
+		color: #F9F9F9;
+		font-size: 1em;
+		margin-top: 15px;
+	}
 }
 
 

@@ -16,6 +16,9 @@ body {
   font-size: 3.2em;
   font-weight: bold;
   line-height: 0.6em; }
+  @media (max-width: 480px) {
+    .logo {
+      font-size: 2.1em; } }
 
 a {
   color: #479aff; }
@@ -29,6 +32,19 @@ a {
   font-family: 'Source Sans Pro'; }
   .intro a {
     color: #b5d8ff; }
+  @media (max-width: 480px) {
+    .intro {
+      font-size: 18px;
+      padding: 40px 15px; } }
+
+.tagline {
+  font-size: 0.24em;
+  letter-spacing: 0.12em;
+  margin: 0;
+  color: #E0E0E0; }
+  @media (max-width: 480px) {
+    .tagline {
+      font-size: 0.32em; } }
 
 section {
   font-size: 20px;
@@ -39,16 +55,25 @@ section {
     display: block;
     margin: 0 auto;
     width: 100%; }
+  @media (max-width: 480px) {
+    section {
+      font-size: 18px; } }
 
 .content {
   width: 60%;
   margin: 0 auto;
   line-height: 1.4em; }
+  @media (max-width: 480px) {
+    .content {
+      width: 90%; } }
 
 #description {
   color: #E0E0E0; }
   #description p {
     margin: 0.1em; }
+    @media (max-width: 480px) {
+      #description p {
+        margin: 0.6em; } }
 
 .bg {
   position: relative;
@@ -91,6 +116,9 @@ header {
     color: #F9F9F9; }
   .button:active {
     box-shadow: inset 0 1px 7px #444; }
+  @media (max-width: 480px) {
+    .button {
+      color: #F9F9F9; } }
 
 #main-button {
   padding: 1.2em;
@@ -101,6 +129,11 @@ header {
   margin-top: 1.6em;
   letter-spacing: -0.01em;
   transition: color 300ms; }
+  @media (max-width: 480px) {
+    #main-button {
+      color: #F9F9F9;
+      font-size: 1em;
+      margin-top: 15px; } }
 
 #mc_embed_signup_scroll {
   font-family: 'Source Sans Pro';
