@@ -79,7 +79,7 @@ section {
 	margin: 0 auto;
 	line-height: 1.4em;
 	@media (max-width: $media-small) {
-		width: 90%;
+		width: 85%;
 	}
 }
 
@@ -138,6 +138,7 @@ header {
 	border: none;
 	font-family: 'Source Sans Pro';
 	color: #EAEAEA;
+	-webkit-appearance: none;
 	&:hover { 
 		cursor: pointer;
 		color: #F9F9F9;
