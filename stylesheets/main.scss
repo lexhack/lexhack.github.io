@@ -7,36 +7,23 @@ $yellow: #FFC747;
 body {
 	margin: 0;
 	padding: 0;
-	// background-color: #F9F9F9;
 	background-color: #EAEAEA;
 	font-family: 'Source Sans Pro';
 }
 
-// $yellow: #FFCE5B;
-// $yellow: #FFBD23;
-// $yellow: #FFBE28;
-
-// $blue: #4391E0;
 $blue: #479AFF;
 $light-blue: #B5D8FF;
 
 .yellow {
 	color: $yellow;
-	// color: white;
-	// color: #EBEBF4;
 }
 
 .logo {
-	// font-family: 'Source Sans Pro';
 	color: #F7F7F7;
-
-	// color: #0A0A0A;
 	font-family: Montserrat;
 	font-size: 3.2em;
 	font-weight: bold;
 	line-height: 0.6em;
-	// margin-bottom: 0.4em;
-	// -0.02em
 }
 
 a {
@@ -48,17 +35,10 @@ a {
 	font-size: 20px;
 	text-align: center;
 	padding: 220px 50px;
-	// padding-top: 150px;
-	// background-color: white;
 	margin: 0 auto;
-	// margin-top: 100px; 
-	// width: 60%;
-	// background-color: rgba(242, 242, 242, 0.8);
 	background-color: rgba(64,64,64,0.6);
-	// background-color: #fcfcfc;
 	font-family: 'Source Sans Pro';
-	a {
-		// color: #EAEAEA;
+	a{
 		color: $light-blue;
 	}
 }
@@ -68,9 +48,6 @@ section {
 	background-color: #EAEAEA;
 	color: #444;
 	padding-bottom: 2em;
-	p {
-		// margin-top: 2em;
-	}
 	.block-img {
 		display: block;
 		margin: 0 auto;
@@ -85,26 +62,11 @@ section {
 }
 
 #description {
-	// color: #222;
 	color: #E0E0E0;
-
-	// line-height: 0.4em;
 	p {
 		margin: 0.1em;
 	}
 }
-
-// nav {
-// 	height: 80px;
-// 	z-index: 1;
-// 	background-color: $light-blue;
-// 	position: relative;
-// 	// background-color: #3371B7;
-// 	box-shadow: 0 2px 14px rgba(128, 128, 128, 0.4);
-// 	// a {
-// 		// color: white;
-// 	// }
-// }
 
 .bg {
 	position: relative;
@@ -131,8 +93,6 @@ section {
 }
 
 header {
-	// color: #222;
-	// color: $yellow;
 	background-color: $yellow;
 	font-family: Montserrat;
 	padding: 1.6em 0;
@@ -159,20 +119,14 @@ header {
 }
 
 #main-button {
-	// color: #444;
-	// color: $yellow;
 	padding: 1.2em;
 	display: inline-block;
-	// color: #F9F9F9;
 	background-color: rgba($blue, 0.8);
 	font-family: Montserrat;
 	font-size: 1.1em;
 	margin-top: 1.6em;
-	// font-weight: bold;
 	letter-spacing: -0.01em;
 	transition: color 300ms;
-	// color: #F9F9F9;
-
 }
 
 
@@ -191,7 +145,6 @@ header {
 	font-family: 'Source Sans Pro';
 	font-size: 1em;
 	padding: 1em;
-	// margin: 0;
 	box-sizing: border-box;
 	width: 100%;
 	margin-bottom: 0.6em;
@@ -199,7 +152,6 @@ header {
 
 #mc-embedded-subscribe {
 	background-color: $blue;
-	// color: $light-blue;
 	padding: 1em;
 	font-weight: bold;
 	font-size: 1em;
