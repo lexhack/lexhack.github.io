@@ -2,19 +2,12 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700);
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 
-$nav-pills-border-radius: 8px;
-$num-items: 5;
-
-// Default core variables and mixins
-@import 'bootstrap/variables';
-@import 'bootstrap/mixins';
-
 $yellow: #FFC747;
 $blue: #479AFF;
 $light-blue: #B5D8FF;
-$media-small: 568px; // iphone 5 landscape
+$media-small: 800px; // iphone 5 landscape
 
-$btn-success-bg:	$blue;  
+$btn-success-bg:	$blue;
 $btn-success-border: $blue;
 
 body {
@@ -89,7 +82,9 @@ section {
  	background-color: #EAEAEA;
  	color: #444;
 	.content {
-		padding: 20px;		
+		width: 66%;
+		margin: 0 auto;
+		padding: 20px;
 	}
 	p {
 		margin-bottom: 1em;
@@ -99,7 +94,7 @@ section {
 		margin-bottom: 0.3em;
 		font-weight: bold;
 	}
-	@media (min-width: $screen-sm-min) {
+	@media (min-width: $media-small) {
 		font-size: 21px;
 		line-height: 1.5em;
 		.content {
@@ -114,116 +109,6 @@ section {
 			margin: 0;
 		}
 		background-color: #F2B500;
-	}
-}
-
-#registration {
-	margin-left: 10%;
-	text-align: left;
-	font-size: 1.1em;
-
-	.btn {
-		color: $light-blue;
-	}
-
-	label {
-		font-weight: normal;
-	}
-
-	li {
-		list-style-type: none;
-	}
-
-	textarea {
-		resize: none;
-	}
-
-	.ss-required-asterisk {
-		color: #F66E6E;
-	}
-
-	.ss-secondary-text {
-		font-style: italic;
-		font-size: 0.9em;
-	}
-
-	.required-message {
-		display: none;
-	}
-}
-
-.unstyled{ 
-	color: black;
-}
-
-.unstyled:hover {
-	color: black;
-	text-decoration: none;
-}
-
-#description {
-	color: #E0E0E0;
-	p {
-		margin: 0.1em;
-		@media (max-width: $media-small) {
-			margin: 0.6em;
-		}
-	}
-}
-
-.bg {
-	position: relative;
-	min-height: 900px;
-	min-width: 100%;
-	-webkit-filter: blur(2px);
-	z-index: -1;
-}
-
-.icon {
-	display: block;
-	margin: 0 auto;
-	margin-bottom: 40px;
-	font-size: 1.6em;
-}
-
-.img-container {
-	position: absolute;
-	top: 0;
-	width: 100%;
-	min-height: 100%;
-	overflow-x: hidden;
-	z-index: -1;
-}
-
-.nav-pills {
-	width: 100%;
-	li {
-		float: left;
-		width: 100%;
-		margin: 0 !important;
-		padding: 0;
-		text-align: center;
-		@media (min-width: $screen-sm-min) {
-			width: percentage(1/5);
-
-		}
-	}
-	a {
-		box-sizing: border-box;
-		display: inline-block !important;
-		width: 75%;
-		font-size: 16px;
-		@media (min-width:  $screen-sm-min) {
-			width: 98%;
-		}
-		@media (min-width: $screen-md-min) {
-			font-size: 18px;
-			padding: 20px !important;
-		}
-	}
-	.btn {
-		@include box-shadow(inset 0 -3px 5px rgba(0,0,0,.125));
-		margin: 0;
 	}
 }
 
@@ -249,16 +134,16 @@ header {
 	font-family: 'Source Sans Pro';
 	color: #EAEAEA;
 	-webkit-appearance: none; // removes webkit btn defaults
-	&:hover { 
+	&:hover {
 		cursor: pointer;
 		color: #F9F9F9;
 	}
 	&:active {
 		box-shadow: inset 0 1px 7px #444;
 	}
-	@media (max-width: $media-small) {
-		color: #F9F9F9;
-	}
+	// @media (max-width: $media-small) {
+	// 	// color: #F9F9F9;
+	// }
 }
 
 .sponsor-logo {
@@ -283,20 +168,20 @@ td.event{
 	text-align: left;
 }
 
-#main-button {
-	padding: 1.2em;
-	display: inline-block;
-	background-color: rgba($blue, 0.8);
-	font-family: Montserrat;
-	font-size: 1.1em;
-	letter-spacing: -0.01em;
-	transition: color 300ms;
-	@media (max-width: $media-small) {
-		color: #F9F9F9;
-		font-size: 1em;
-		margin-top: 15px;
-	}
-}
+// #main-button {
+// 	padding: 1.2em;
+// 	display: inline-block;
+// 	background-color: rgba($blue, 0.8);
+// 	font-family: Montserrat;
+// 	font-size: 1.1em;
+// 	letter-spacing: -0.01em;
+// 	transition: color 300ms;
+// 	@media (max-width: $media-small) {
+// 		color: #F9F9F9;
+// 		font-size: 1em;
+// 		margin-top: 15px;
+// 	}
+// }
 
 
 #mc_embed_signup_scroll {
@@ -327,15 +212,5 @@ td.event{
 	width: 100%;
 }
 
-// Bootstrap core CSS
-@import 'bootstrap/scaffolding';
-@import 'bootstrap/type';
-@import 'bootstrap/code';
-@import 'bootstrap/grid';
-@import 'bootstrap/tables';
-@import 'bootstrap/forms';
-@import 'bootstrap/buttons';
-
-@import 'bootstrap/navbar';
-@import 'bootstrap/navs';
-@import 'bootstrap/jumbotron';
+@import 'nav';
+@import 'registration';

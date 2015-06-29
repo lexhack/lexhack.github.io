@@ -1,0 +1,27 @@
+$num-items: 5;
+
+.nav {
+	display: block;
+	width: 100%;
+	padding: 0;
+	overflow: auto;
+	margin: 0;
+	li {
+		display: block;
+		list-style: none;
+		width: 60%;
+		margin: 0.5em auto;
+		@media (min-width: $media-small) {
+			width: percentage(1/$num-items);
+			float: left;
+		}
+		a {
+			position: relative;
+			display: block;
+			padding: 1em 0;
+		}
+		#main-button {
+			background-color: rgba($blue, 0.8);
+		}
+	}
+	}
