@@ -3,6 +3,7 @@ body {
 	padding: 0;
 	background-color: #EAEAEA;
 	font-family: 'Source Sans Pro';
+	line-height: 1.5em;
 }
 
 .logo {
@@ -20,6 +21,10 @@ body {
 
 .yellow {
 	color: #FFC747;
+}
+
+input {
+	font-size: 0.8em;
 }
 
 #registration {
@@ -94,7 +99,7 @@ textarea {
 	color: black;
 	text-decoration: none;
 }
-
+	
 .unstyled:hover {
 	color: black;
 	text-decoration: none;
