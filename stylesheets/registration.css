@@ -23,15 +23,20 @@ body {
 }
 
 #registration {
-	margin-left: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
 	text-align: left;
 	font-size: 1.1em;
 }
 
 .main-button {
-	padding: 1.2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 1.3em;
+	padding-right: 1.3em;
 	display: inline-block;
-	background-color: rgba(#479AFF, 0.8);
+	background-color: #479AFF;
+	opacity: 0.8;
 	font-family: Montserrat;
 	font-size: 1.1em;
 	letter-spacing: -0.01em;
