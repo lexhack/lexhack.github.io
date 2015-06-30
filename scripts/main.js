@@ -4,7 +4,7 @@ var taglines = [
 	"Hack while sitting on a beanbag [Sack.]",
 	"Hack but don't [Slack.]",
 	"Hack up some Green[backs.]",
-	"Hack on PC or [Mac]",
+	"Hack on PC, Linux, or [Mac.]",
 ];
 
 
@@ -40,5 +40,5 @@ window.onload = function() {
 	setInterval(function(){
 		fadeIn(document.getElementsByClassName("tagline")[0]);
 		newTagline();
-	},10000);
+	},8000);
 }
