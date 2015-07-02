@@ -51,9 +51,12 @@ section {
   background-color: #EAEAEA;
   color: #444; }
   section .content {
-    width: 66%;
+    width: 80%;
     margin: 0 auto;
     padding: 20px; }
+    @media (min-width: 800px) {
+      section .content {
+        width: 66%; } }
   section p {
     margin-bottom: 1em; }
   section h3 {
@@ -110,7 +113,7 @@ header {
   margin-right: auto; }
 
 td {
-  padding: 5px; }
+  padding: 5px 3px; }
 
 td.time {
   text-align: center; }
