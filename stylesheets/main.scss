@@ -82,7 +82,10 @@ section {
  	background-color: #EAEAEA;
  	color: #444;
 	.content {
-		width: 66%;
+		@media (min-width: $media-small) {
+			width: 66%;
+		}
+		width: 80%;
 		margin: 0 auto;
 		padding: 20px;
 	}
@@ -157,7 +160,7 @@ header {
 }
 
 td {
-	padding: 5px;
+	padding: 5px 3px;
 }
 
 td.time {
