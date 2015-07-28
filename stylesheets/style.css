@@ -8,7 +8,7 @@ body {
   font-family: 'Source Sans Pro'; }
 
 .yellow {
-  color: #FFC747; }
+  color: #ffc747; }
 
 .logo {
   color: #F7F7F7;
@@ -21,7 +21,7 @@ body {
       font-size: 2.1em; } }
 
 a {
-  color: #479AFF; }
+  color: #479aff; }
 
 .intro {
   font-size: 20px;
@@ -31,7 +31,7 @@ a {
   background-color: rgba(64, 64, 64, 0.6);
   font-family: 'Source Sans Pro'; }
   .intro a {
-    color: #B5D8FF; }
+    color: #b5d8ff; }
   @media (max-width: 800px) {
     .intro {
       font-size: 18px;
@@ -78,7 +78,7 @@ section {
       margin: 0; }
 
 header {
-  background-color: #FFC747;
+  background-color: #ffc747;
   font-family: Montserrat;
   padding: 1.6em 0;
   text-align: center; }
@@ -139,7 +139,7 @@ td.event {
   margin-bottom: 0.6em; }
 
 #mc-embedded-subscribe {
-  background-color: #479AFF;
+  background-color: #479aff;
   padding: 1em;
   font-weight: bold;
   font-size: 1em;
@@ -172,7 +172,7 @@ td.event {
   text-align: left;
   font-size: 1.1em; }
   #registration .btn {
-    color: #B5D8FF; }
+    color: #b5d8ff; }
   #registration label {
     font-weight: normal; }
   #registration li {
@@ -222,5 +222,3 @@ td.event {
   min-height: 100%;
   overflow-x: hidden;
   z-index: -1; }
-
-/*# sourceMappingURL=style.css.map */
