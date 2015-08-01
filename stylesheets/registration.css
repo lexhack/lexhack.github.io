@@ -23,7 +23,7 @@ body {
 	color: #FFC747;
 }
 
-input {
+input, textarea{
 	font-size: 0.8em;
 }
 
