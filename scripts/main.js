@@ -40,5 +40,5 @@ window.onload = function() {
 	setInterval(function(){
 		fadeIn(document.getElementsByClassName("tagline")[0]);
 		newTagline();
-	},8000);
+	},4000);
 }
