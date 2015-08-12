@@ -9,15 +9,14 @@
 	<title>LexHack</title>
 	<link rel='icon' type='image/ico' href='favicon.ico'>
 	<link href='stylesheets/style.css' rel='stylesheet' type='text/css'>
-	<link href='stylesheets/bootstrap.min.css' rel='stylesheet' type='text/css'>
 	<script src='scripts/main.js' type='text/javascript'></script>
 </head>
 <body>
-	<div class='img-container'>
+	<div class='bg-img-container'>
 		<img class='bg' src='images/minuteman.jpg'>
 	</div>
 	<div class='intro'>
-		<span class='logo'>
+		<span id='logo'>
 			<span style='letter-spacing: -0.02em;'>
 				<span style='letter-spacing: -0.06em'>&lt; </span>Lex<span class='yellow'>Hack<span style='letter-spacing: -0.06em'> &gt;</span></span>
 			</span>
@@ -31,15 +30,12 @@
 			<p>8:00 am • 11:00 pm</p>
 		</div>
 		<br>
-		<ul class='nav' style="overflow:visible;">
+		<ul class='nav' style='overflow:visible;'>
 			<li><a href='#about' class='button'>About</a></li>
 			<li><a href='#faq' class='button'>FAQ</a></li>
 			<li><a href='registration.html' class='button' id='main-button'>
 				Register!
 			</a>
-			<small style="line-height:1em;font-size:0.5em;display:block;margin-top:0.5em;">
-				Professional programmer or veteran hacker looking to help out? <a href="mentor-registration.html" style="display:inline-block;margin:0;padding:0;">Register to mentor!</a>
-			</small>
 			</li>
 			<li><a href='#sponsors' class='button'>Sponsors</a></li>
 			<li><a href='#contact' class='button'>Contact</a></li>
@@ -52,8 +48,8 @@
 		</header>
 		<div class='content'>
 			<p><strong>LexHack</strong> is a hackathon targeting high school students of all programming abilities. A hackathon is an event where teams of 4 (or less) individuals work together towards development of a software application (or a hardware project if you're so inclined). At LexHack, you will have 12 hours to complete your project, after which your project will be judged by a panel of judges. These judges will then determine a winner based on the reward criteria for the event. </p>
-			<p>This event is totally free; all you need to do to attend is <a href="registration.html">register here</a> and show up on September 19th at <a href="https://www.google.com/maps/place/Lexington+High+School,+251+Waltham+St,+Lexington,+MA+02421/@42.443716,-71.2319586,17z/">Lexington High School </a> by 8:30 am. If you don't have a team, don't worry, you can find one when you arrive at the event! In that case, please try to arrive a little earlier so we can match you up with others who need a team. All we ask is that you bring a laptop and any other hardware you wish to use, as well as an open mind.</p>
-			<p>You can see last year's archive at <a href="http://2014.lexhack.org">2014.lexhack.org</a>.</p>
+			<p>This event is totally free; all you need to do to attend is <a href='registration.html'>register here</a> and show up on September 19th at <a href='https://www.google.com/maps/place/Lexington+High+School,+251+Waltham+St,+Lexington,+MA+02421/@42.443716,-71.2319586,17z/'>Lexington High School </a> by 8:30 am. If you don't have a team, don't worry, you can find one when you arrive at the event! In that case, please try to arrive a little earlier so we can match you up with others who need a team. All we ask is that you bring a laptop and any other hardware you wish to use, as well as an open mind.</p>
+			<p>You can see last year's archive at <a href='http://2014.lexhack.org'>2014.lexhack.org</a>.</p>
 
 			<h2>Schedule</h2>
 			<table>
@@ -80,7 +76,7 @@
 		<header>
 			<h1>FAQ</h1>
 		</header>
-		<div class='container content'>
+		<div class='content'>
 			<h3>Who can attend?</h3>
 			<p>Anyone currently enrolled in high school may attend. If you're unsure about your eligibility, please <a href='mailto:info@lexhack.org'>email</a> us.</p>
 			<h3>Do I need to know anything about programming to attend?</h3>
@@ -107,75 +103,50 @@
 		<header>
 			<h1>Sponsors</h1>
 		</header>
-		<div class='container'>
-			<div class='row'>
-				<div class='col-md-4'>
-					<a href="http://lexrobotics.com"><img alt="Lexrobotics" src="/images/sponsors/lexrobotics.png" class='sponsor-image'/>
+		<div class='content'>
+			<div class='sponsor-img-row'>
+					<a href='http://lexrobotics.com'>
+						<img alt='Lexrobotics' src='images/sponsors/lexrobotics.png'/>
 					</a>
-				</div>
-				<div class='col-md-4'>
-					<a href="https://teamtreehouse.com/signup_code/lexhack"><img alt="Treehouse" src="/images/sponsors/treehouse.jpeg" class='sponsor-image'/>
+					<a href='https://teamtreehouse.com/signup_code/lexhack'>
+						<img alt='Treehouse' src='images/sponsors/treehouse.jpeg'/>
 					</a>
-				</div>
-				<div class ='col-md-4'>
-					<a href="http://lob.com"><img alt="Lob" src="/images/sponsors/lob.png" class='sponsor-image'/>
+					<a href='http://lob.com'>
+						<img alt='Lob' src='images/sponsors/lob.png'/>
 					</a>
-				</div>
-				<div class ='col-md-4'>
-					<a href="https://www.startupvitamins.com"><img alt="StartupVitamins" src="/images/sponsors/startupvitamins.png" class='sponsor-image'/>
+					<a href='https://www.startupvitamins.com'>
+						<img alt='StartupVitamins' src='images/sponsors/startupvitamins.png'/>
 					</a>
-				</div>
 			</div>
+			<p>
+				Working with LexHack as a sponsor gives companies a unique opportunity to connect with over 100 of the best and brightest high school students in the region.
+			</p>
+			<p>
+				Interested in donating money, mentors, food, or swag? Just get in <a href='mailto:info@lexhack.org'>touch</a> &mdash;	 we'd love to have you!
+			</p>
 		</div>
-		<div class='container content'>
-			<!--<div class='row'>
-				<div class='img-container'>
-					<a href="https://teamtreehouse.com/"><img alt="Lob" src="http://photos3.meetupstatic.com/photos/event/b/f/e/c/highres_343849132.jpeg" class='sponsor-image'/>
-					</a></div>
-				<div class='img-container'>
-					<a href="https://www.startupvitamins.com/"><img alt="Startup_Vitamins" src="https://pbs.twimg.com/profile_images/2648132724/a1bb3123c017566e377cb5fc6da24e02_400x400.png" class='sponsor-image'/>
-					</a></div>
-				<div class='img-container'>
-					<a href="https://lob.com/"><img alt="Lob" src="https://s3-us-west-2.amazonaws.com/lob-assets/LobLogoWhite.png" class='sponsor-image'/>
-					</a></div>
-			</div>
-		<br>-->
-		<p>
-		Working with LexHack as a sponsor gives companies a unique opportunity to connect with over 100 of the best and brightest high school students in the region. <!--There are lots of ways you can get involved! 
-		You can donate <a href="LexHack Sponsorship Tiers.pdf">money</a>, <a href="LexHack Mentor Tiers.pdf">mentors</a>, <a href="FoodSponsorshipDocument.pdf">food</a>, or <a href="LexHack Asset Tiers.pdf">swag and/or hackable hardware</a> at multiple levels. 
-		We also have an <a href="LexHack Info Packet.pdf">information packet</a> detailing why you should sponsor and how to make the most out of your sponsorship.
-		</p>
-		<p>
-		-->
-		Interested<!-- << --> in donating money, mentors, food, or swag<!-- >> -->? Just get in <a href='mailto:info@lexhack.org'>touch</a> &mdash; we'd love to have you!</p>
-		</p>
-		</div>
-		<!--</div>-->
 	</section>
-	<section id="food sponsors">
+	<section id='food-sponsor'>
 		<header>
 			<h1>Food Sponsors</h1>
 		</header>
-		<div class='container'>
-			<div class='row'>
-				<div class='col-md-4'>
-					<a href="http://www.bertuccis.com/"><img alt="Bertucci's" src="images/sponsors/bertuccis.png" class='sponsor-image'/>
-					</a>
-				</div>
-				<div class='col-md-4'>
-					<a href="http://www.theuppercrustpizzeria.com/"><img alt="Upper Crust" src="images/sponsors/uppercrust.png" class='sponsor-image'>
-					</a>
-				</div>
+		<div class='content'>
+			<div class='sponsor-img-row'>
+				<a href='http://www.bertuccis.com/'>
+					<img alt="Bertucci's" src='images/sponsors/bertuccis.png'/>
+				</a>
+				<a href='http://www.theuppercrustpizzeria.com/'>
+					<img alt='Upper Crust' src='images/sponsors/uppercrust.png'/>
+				</a>
 			</div>
-			<br>
-			<p> Special thanks to our food sponsors for providing meals throughout the day!
+			<p> Special thanks to our food sponsors for providing meals throughout the day! </p>
 		</div>
 	</section>
 	<section id='contact'>
 		<header>
 			<h1>Contact</h1>
 		</header>
-		<div class='container content'>
+		<div class='content'>
 			Need to get in touch? Shoot us an email at <a href='mailto:info@lexhack.org'>info@lexhack.org</a>! <br>
 			You can also find us on Twitter <a href='https://twitter.com/lexhacks'>@lexhacks</a>. <br><br>
 		</div>
