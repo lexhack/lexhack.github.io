@@ -43,10 +43,12 @@ a {
 	line-height: 1.5em;
 	font-size: 20px;
 	text-align: center;
-	padding: 220px 50px;
+	padding: 110px 50px;
+	padding-top: 220px;
 	margin: 0 auto;
 	background-color: rgba(64,64,64,0.6);
 	font-family: 'Source Sans Pro';
+	overflow: auto;
 	a {
 		color: $light-blue;
 	}
@@ -155,7 +157,6 @@ header {
 	display: inline-block;
 	background-color: #479AFF;
 	opacity: 0.8;
-	font-family: Montserrat;
 	font-size: 1.1em;
 	letter-spacing: -0.01em;
 	transition: color 300ms;
@@ -265,6 +266,13 @@ td.event{
 			}
 		}
 	}
+}
+
+#mentor-registration-note {
+	font-size: 0.8em;
+	padding-top: 1em;
+	line-height: 1.2em;
+	color: #E0E0E0;
 }
 
 @import 'nav';
