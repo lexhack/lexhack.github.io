@@ -10,6 +10,15 @@
 	<link rel='icon' type='image/ico' href='favicon.ico'>
 	<link href='stylesheets/style.css' rel='stylesheet' type='text/css'>
 	<script src='scripts/main.js' type='text/javascript'></script>
+	<script>
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  	ga('create', 'UA-52347041-2', 'auto');
+  	ga('send', 'pageview');
+	</script>
 </head>
 <body>
 	<div class='bg-img-container'>
@@ -24,10 +33,10 @@
 		</span>
 
 		<div id='description'>
-			<p><em>the 12 hour hackathon for all high schoolers</em></p>
-			<!--p><em>over $3000 in swag and prizes</em></p-->
+			<p><em>the 12 hour <a href='https://en.wikipedia.org/wiki/Hackathon'>hackathon</a> for all high schoolers</em></p>
+			<p><em>a free event with thousands in swag and prizes</em></p>
 			<p>Saturday, September 19th @ <a href='https://www.google.com/maps/place/Lexington+High+School,+251+Waltham+St,+Lexington,+MA+02421/@42.443716,-71.2319586,17z/'>Lexington High School</a></p>
-			<p>8:00 am • 11:00 pm</p>
+			<p>150 hackers | 8:00 am • 11:00 pm</p>
 		</div>
 		<ul class='nav'>
 			<li><a href='#about' class='button'>About</a></li>
@@ -51,12 +60,15 @@
 			<h1>About</h1>
 		</header>
 		<div class='content'>
-			<p><strong>LexHack</strong> is a hackathon targeting high school students of all programming abilities. A hackathon is an event where teams of 4 (or less) individuals work together towards development of a software application (or a hardware project if you're so inclined). At LexHack, you will have 12 hours to complete your project, after which your project will be judged by a panel of judges. These judges will then determine a winner based on the reward criteria for the event. </p>
-			<p>This event is totally free; all you need to do to attend is <a href='registration.html'>register here</a> and show up on September 19th at <a href='https://www.google.com/maps/place/Lexington+High+School,+251+Waltham+St,+Lexington,+MA+02421/@42.443716,-71.2319586,17z/'>Lexington High School </a> by 8:30 am. If you don't have a team, don't worry, you can find one when you arrive at the event! In that case, please try to arrive a little earlier so we can match you up with others who need a team. All we ask is that you bring a laptop and any other hardware you wish to use, as well as an open mind.</p>
-			<p>You can see last year's archive at <a href='http://2014.lexhack.org'>2014.lexhack.org</a>.</p>
 
-			<h2>Schedule</h2>
-			<table>
+			<p><strong>LexHack</strong> is a hackathon for high schoolers of all programming abilities. It’s free, all day (12 hours), and equipped with hackable hardware (e.g. Arduino, Raspberry Pi), great prizes, tons of swag, delicious food (all meals provided!), and mentors to help you build your project. It's <strong>Saturday, September 19th</strong> in the Lexington High School Main Building. <a href='registration.html'>Sign up here</a>!</p>
+
+			<p><strong>What is a hackathon?</strong> A <a href='https://en.wikipedia.org/wiki/Hackathon'>hackathon</a> is an engineering and coding event where students collaborate to build or program entire projects. Come with a team of friends, or create a team at the event and make new ones. No programming experience? Our mentors can help you get started making a basic web app with our start guide. LexHack's mission is to spread the love of programming and innovation to everyone by making our event as accessible as possible.</p>
+
+			<p>Check out last year's archive at <a href='http://2014.lexhack.org'>2014.lexhack.org</a>.</p>
+
+			<h3>Schedule</h3>
+			<table id='schedule'>
 				<tr>
 					<td class='time'>8:00 am • 9:00 am</td><td class='event'>Registration / mingle time</td>
 				</tr>
@@ -64,13 +76,13 @@
 					<td class='time'>9:00 am • 9:15 am </td><td class='event'> Opening ceremonies </td>
 				</tr>
 				<tr>
-					<td class='time'>9:15 am • 9:15 pm </td><td class='event'> Hacking (w/ breaks for food) </td>
+					<td class='time'>9:15 am • 9:15 pm </td><td class='event'> Hacking (with breaks for food) </td>
 				</tr>
 				<tr>
 					<td class='time'>&nbsp;&nbsp;9:15 pm • 10:00 pm </td><td class='event'> 1st round judging + delibration </td>
 				</tr>
 				<tr>
-					<td class='time'>10:00 pm • 11:00 pm </td><td class='event'> Demos/2nd round judging + closing ceremonies </td>
+					<td class='time'>10:00 pm • 11:00 pm </td><td class='event'> Demos / 2nd round judging + closing ceremonies </td>
 				</tr>
 			</table>
 		</div>
@@ -82,25 +94,34 @@
 		</header>
 		<div class='content'>
 			<h3>Who can attend?</h3>
-			<p>Anyone currently enrolled in high school may attend. If you're unsure about your eligibility, please <a href='mailto:info@lexhack.org'>email</a> us.</p>
-			<h3>Do I need to know anything about programming to attend?</h3>
-			<p>Nope! Part of the goal of LexHack is to help people learn how to quickly develop a prototype of a full application from a single idea.  We'll have plenty of mentors at the event to help you learn, and we guarantee you'll have built something awesome by the end of the day! However, we do recommend checking out sites like <a href='http://codecademy.com'>Codecademy</a> or <a href='https://code.org'>Code.org</a> to familiarize yourself with basic programming concepts. We'll also have a special award category for the best beginner project.</p>
+			<p>Anyone currently enrolled in high school may attend. If you’re in middle school or are otherwise unsure about your eligibility, please email us.</p>
+
+			<h3>What if I have no programming experience?</h3>
+			<p>	No problem! LexHack is a great way to learn, thanks to our start guide and mentors. We even have prizes exclusively for beginners.</p>
+
 			<h3>How much does LexHack cost?</h3>
-			<p>Absolutely nothing! This is thanks to the gracious donations of our <a href='#sponsors'>sponsors</a>.</p>
-			<h3>Do I need to make a team for LexHack?</h3>
-			<p>Not at all! We recommend competing with a team of 4 students (or less), and if already have a team in mind, that's great! However, we've set aside time in the morning for you to meet others and form a team if you don't have one when you sign up. Just be prepared to come a little earlier (doors open at 8 am).</p>
-			<h3>What technologies / programming languages do I need to use?</h3>
-			<p>You can create your application using any technology you would like, as long as it meets one of two criteria for submission:
-				<br>- You can provide source code that anyone can run (e.g. code in a language with a readily-available compiler)
-				<br>- You can provide a working executable for Mac, Windows, Linux, iOS, or Android, as well as source we can view (e.g. a project written with a proprietary compiler, such as an iPhone app).
-				<br>If you are still unsure if the programming language you wish to use is legal, please contact us.
-			</p>
-			<h3>How can I volunteer to mentor?</h3>
-			<p>If you've graduated from high school, you can volunteer to mentor by filling out our form <a href='mentor-registration.html'>here</a>. If you're a high school student, we recommend participating in the event itself. However, if you'd prefer to mentor please contact us directly. Mentoring is a full-day commitment that involves teaching students our pre-written development curriculum and helping them with their own projects. Thanks for your interest in volunteering!</p>
-			<h3>Are there other volunteer opportunities?</h3>
-			<p>We could always use more hands to help facilitate the event! If you're interested in being a volunteer either in the morning, noon/afternoon, or evening (or a combination of the aforementioned) then please contact us to receive more information. High school volunteers are eligible for community service hours, and no programming experience is necessary to volunteer. </p>
-			<h3>What do I need to bring?</h3>
-			<p>Bring yourself and any tools you need. For most, this will just be a laptop and charger. If you're more advanced and want to do a hardware project or a mobile application, bring the required equipment for these as we won't have any additional equipment available. </p>
+			<p>Absolutely nothing! Unfortunately, we cannot offer travel reimbursements at this time, but feel free to contact us for travel advice.</p>
+
+			<h3>What do I bring?</h3>
+			<p>Bring a laptop, laptop charger, the signed waiver (which will be sent out in an email before the event), and anything else you want to hack with. All meals and snacks are provided free, so you won't n eed to bring any. If you require special food accommodations, or don't have a laptop you can bring, please contact us.</p>
+
+			<h3>How do I make a hardware hack?</h3>
+			<p>Read about available hardware and usage guidelines <a href='#'>here.</a></p>
+
+			<h3>Do I need a team for LexHack?</h3>
+			<p>Nope! Just make sure you arrive earlier so we can set you up with a team.</p>
+
+			<h3>How does judging work?</h3>
+			<p>You will have the chance to present your project to and get feedback from a panel of professionals. During deliberation, you can exhibit your project and visit other projects in an all-participant expo. </p>
+
+			<h3>What are the rules for projects at LexHack?</h3>
+			<p>To be eligible for judging, your project should be your own work! A project can be made using whatever technology you like, as long as you are able to present a working demo. You may use premade general code libraries, but you will only be judged on what is created at LexHack. Contact us if you’re still unsure about is allowed.</p>
+
+			<h3>How can I help LexHack?</h3>
+			<p>You can sign up as a mentor <a href='mentor-registration.html'>here</a>, or as a volunteer by sending us an email. Interested in sponsoring? Check out our sponsor information <a href='LexHack Sponsorship Tiers.pdf'>here</a>.</p>
+
+			<p>Other questions, comments, or concerns? Just email us at info@lexhack.org and we’ll get back to you as soon as possible.</p>
+
 		</div>
 	</section>
 	<section id='sponsors'>
@@ -122,8 +143,13 @@
 						<img alt='StartupVitamins' src='images/sponsors/startupvitamins.png'/>
 					</a>
 			</div>
+			<div class='sponsor-img-row'>
+					<a href='http://www.wolframalpha.com/'>
+						<img alt='Wolfram Alpha' src='images/sponsors/wolfram-alpha.png'/>
+					</a>
+			</div>
 			<p>
-				Working with LexHack as a sponsor gives companies a unique opportunity to connect with over 100 of the best and brightest high school students in the region.
+				Working with LexHack as a sponsor gives companies a unique opportunity to connect with over 100 of the best and brightest high school students in the region. See the potential sponsorship tiers <a href='LexHack Sponsorship Tiers.pdf'>here</a>.
 			</p>
 			<p>
 				Interested in donating money, mentors, food, or swag? Just get in <a href='mailto:info@lexhack.org'>touch</a> &mdash;	 we'd love to have you!

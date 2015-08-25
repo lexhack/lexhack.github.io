@@ -5,13 +5,15 @@
 	font-size: 1.6em;
 }
 
-input, textarea {
+input, textarea, .ss-choices {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1em;
+	margin-top: 0.4em;
 }
 
 textarea {
 	width: 100%;
+	max-width: 100%;
 }
 
 #registration {
@@ -19,9 +21,11 @@ textarea {
 	font-size: 1.1em;
 	overflow:hidden;
 	background-color: #6b747e;
-	line-height: 1.5em;
 	color: white;
 	.content {
+		p, .ss-form-question {
+			line-height: 1.5em;
+		}
 		a {
 			color: $light-blue;
 		}
@@ -29,7 +33,10 @@ textarea {
 			width: 50%;
 		}
 	}
+}
 
+#ss-submit {
+	color: white;
 }
 
 .ss-form-question {
@@ -45,16 +52,12 @@ h2 {
 	margin: 0px;
 }
 
-label {
+.ss-q-item-label {
 	font-weight: normal;
 }
 
 li {
 	list-style-type: none;
-}
-
-textarea {
-	resize: none;
 }
 
 .ss-required-asterisk {

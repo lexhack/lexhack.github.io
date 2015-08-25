@@ -29,7 +29,7 @@ a {
   font-size: 20px;
   text-align: center;
   padding: 110px 50px;
-  padding-top: 220px;
+  padding-top: 180px;
   margin: 0 auto;
   background-color: rgba(64, 64, 64, 0.6);
   font-family: 'Source Sans Pro';
@@ -42,7 +42,8 @@ a {
       padding: 40px 15px; } }
 
 #description {
-  color: #E0E0E0; }
+  color: #E0E0E0;
+  margin-top: 1em; }
   #description p {
     margin: 0.1em; }
     @media (max-width: 800px) {
@@ -82,13 +83,6 @@ section {
       line-height: 1.5em; }
       section .content {
         padding: 50px 0; } }
-  section header {
-    text-align: center;
-    padding: 35px;
-    background-color: #F2B500; }
-    section header h1 {
-      font-size: 2em;
-      margin: 0; }
 
 header {
   background-color: #FFC747;
@@ -259,25 +253,31 @@ td.event {
   margin-bottom: 40px;
   font-size: 1.6em; }
 
-input, textarea {
+input, textarea, .ss-choices {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+  margin-top: 0.4em; }
 
 textarea {
-  width: 100%; }
+  width: 100%;
+  max-width: 100%; }
 
 #registration {
   text-align: left;
   font-size: 1.1em;
   overflow: hidden;
   background-color: #6b747e;
-  line-height: 1.5em;
   color: white; }
+  #registration .content p, #registration .content .ss-form-question {
+    line-height: 1.5em; }
   #registration .content a {
     color: #B5D8FF; }
   @media (min-width: 800px) {
     #registration .content {
       width: 50%; } }
+
+#ss-submit {
+  color: white; }
 
 .ss-form-question {
   margin-bottom: 1em; }
@@ -289,14 +289,11 @@ textarea {
 h2 {
   margin: 0px; }
 
-label {
+.ss-q-item-label {
   font-weight: normal; }
 
 li {
   list-style-type: none; }
-
-textarea {
-  resize: none; }
 
 .ss-required-asterisk {
   color: #F66E6E; }
