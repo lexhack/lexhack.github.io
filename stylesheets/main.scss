@@ -221,21 +221,23 @@ td.event{
 	z-index: -1;
 }
 
-.sponsor-img-row {
-	height: 100px;
-	padding-bottom: 1.2em;
-	@media (min-width: $media-small) {
-		height: 120px;
+.sponsor-imgs {
+	&:after {
+  	content: "";
+  	display: table;
+  	clear: both;
 	}
 	a {
 		float: left;
 		display: block;
 		position: relative;
 		width: 100%;
-		height: inherit;
+		height: 120px;
 		vertical-align: middle;
+		margin-bottom: 1.2em;
 		@media (min-width: $media-tiny) {
 			width: 50%;
+			height: 100px;
 		}
 		@media (min-width: $media-small) {
 			width: 25%;
