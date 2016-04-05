@@ -41,6 +41,9 @@ a {
       font-size: 18px;
       padding: 40px 15px; } }
 
+.block-img {
+  width: 100%; }
+
 #description {
   color: #E0E0E0;
   margin-top: 1em; }
@@ -183,6 +186,7 @@ td.event {
   content: "";
   display: table;
   clear: both; }
+
 .sponsor-imgs a {
   float: left;
   display: block;
@@ -317,5 +321,3 @@ li {
   margin: 0 auto;
   margin-bottom: 40px;
   font-size: 1.6em; }
-
-/*# sourceMappingURL=style.css.map */
